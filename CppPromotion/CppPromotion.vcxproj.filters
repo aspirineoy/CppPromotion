@@ -27,6 +27,15 @@
     <ClInclude Include="RingBuffer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="StackInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CustomString.cpp">
@@ -42,6 +51,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="RingBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StackInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkipList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
