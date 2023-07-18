@@ -70,18 +70,19 @@ int main() {
     SkipList skipList(4);
 
     // 向跳表插入元素
+    skipList.insert(9);
     skipList.insert(3);
     skipList.insert(1);
-    skipList.insert(5);
     skipList.insert(2);
+    skipList.insert(4);
 
     // 搜索元素
-    bool found = skipList.search(5);
+    bool found = skipList.search(1);
     if (found) {
-        std::cout << "元素5存在于跳表中" << std::endl;
+        std::cout << "元素1存在于跳表中" << std::endl;
     }
     else {
-        std::cout << "元素5不存在于跳表中" << std::endl;
+        std::cout << "元素1不存在于跳表中" << std::endl;
     }
 
     // 删除元素
